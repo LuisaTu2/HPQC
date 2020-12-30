@@ -1,11 +1,10 @@
 .peopleContainer{
-    height: 600px;
-    display: flex;
+    height: 400px;
+    display: block;
 }
 
 .peopleList{
-    padding: 8%;
-    height: 600px;
+    padding: 2% 0% 2% 20%;
     background-color: rgb(224, 196, 250);
 }
 
@@ -22,7 +21,7 @@
 .person{
     width: 300px;
     float: left;
-    margin: 0px 10px;
+    margin: 10px;
     text-align: center;
 	border: 1px solid rgba(0,0,0,0.1);
 	border-radius: 8px;
@@ -39,4 +38,9 @@
 
 .personTitle {
     font-size: 25px;
+}
+
+.person span{
+    display:block; 
+    margin-top:-27px;
 }
